@@ -216,7 +216,7 @@
             </div>
             <div class="infoIcon playerIcon">
                 <img class="favoritePlayer" src="https://sleepercdn.com/content/nfl/players/{viewManager.favoritePlayer}.jpg" alt="favorite player"/>
-		{#if viewManager.name === "Kyle"}
+		{#if viewManager.name === "Tom Barth"}
                 <img class="favoritePlayer" src="https://sleepercdn.com/content/nba/players/{viewManager.favoritePlayer}.jpg" alt="favorite player"/>
     		{/if}
             </div>
