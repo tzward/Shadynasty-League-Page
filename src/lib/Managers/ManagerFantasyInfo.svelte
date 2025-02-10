@@ -215,10 +215,18 @@
                 Favorite Player
             </div>
             <div class="infoIcon playerIcon">
-                <img class="favoritePlayer" src="https://sleepercdn.com/content/nfl/players/{viewManager.favoritePlayer}.jpg" alt="favorite player"/>
+                {#if viewManager.name === "Kyle"}
+                    <img class="favoritePlayer" src="https://sleepercdn.com/content/nba/players/{viewManager.favoritePlayer}.jpg" alt="favorite player"/>
+		{:else}
+                    <img class="favoritePlayer" src="https://sleepercdn.com/content/nfl/players/{viewManager.favoritePlayer}.jpg" alt="favorite player"/>
+    		{/if}
             </div>
             <div class="infoAnswer">
-                {players[viewManager.favoritePlayer].fn} {players[viewManager.favoritePlayer].ln}
+		{#if viewManager.name === "Kyle"}
+                    LeBron James
+		{:else}
+                    {players[viewManager.favoritePlayer].fn} {players[viewManager.favoritePlayer].ln}
+		{/if}
             </div>
         </div>
     {/if}
@@ -237,7 +245,7 @@
         </div>
     {/if}
     <!-- Rival -->
-    <div class="infoSlot infoRival" onclick={() => changeManager(viewManager.rival.link)}>
+    <div class="infoSlot infoRival" on:click={() => changeManager(viewManager.rival.link)}>
         <div class="infoLabel">
             Rival
         </div>
