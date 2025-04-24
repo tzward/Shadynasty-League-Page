@@ -47,11 +47,6 @@ export const tabs = [
                 dest: '/standings',
             },
             {
-                icon: 'person_search',
-                label: 'Player Database',
-                dest: '/playerDatabase',
-            },
-            {
                 icon: 'view_comfy',
                 label: 'Drafts',
                 dest: '/drafts',
@@ -78,7 +73,11 @@ export const tabs = [
             },
         ]
     },
-    
+    {
+        icon: 'person_search',
+        label: 'Player Database',
+        dest: '/playerDatabase',
+    },
     {
         icon: 'lightbulb',
         label: 'Resources',
