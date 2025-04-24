@@ -13,6 +13,8 @@ import Drafts from './Drafts/index.svelte';
 import Records from './Records/index.svelte';
 import Manager from './Managers/Manager.svelte';
 import AllManagers from './Managers/AllManagers.svelte';
+import Player from './playerDatabase/Player.svelte';
+import playerDatabase from './playerDatabase/AllPlayers.svelte';
 import PowerRankings from './PowerRankings/index.svelte';
 import HomePost from './BlogPosts/HomePost.svelte';
 import FullPost from './BlogPosts/FullPost.svelte';
@@ -35,6 +37,8 @@ export {
     Records,
     Manager,
     AllManagers,
+    Player,
+    AllPlayers,
     PowerRankings,
     HomePost,
     Posts,
