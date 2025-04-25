@@ -61,7 +61,7 @@
 		position: absolute;
 		display: block;
 		height: 96%;
-		width: 1%;
+		width: 0.25%;
 		right: 0%;
 		top: 3%;
 		background-color: #CD3498; /* #ff4ba8 */
@@ -72,7 +72,7 @@
 		position: absolute;
 		display: block;
 		height: 96%;
-		width: 1%;
+		width: 0.25%;
 		left: 0%;
 		top: 3%;
 		background-color: #CD3498; /* #ff4ba8 */
