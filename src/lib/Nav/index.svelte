@@ -42,8 +42,8 @@
   		justify-content: center;
   		align-items: center;
 		height: 5px;
-		width: 100em;
-		top: 10em;
+		width: 1em;
+		top: 30em;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
