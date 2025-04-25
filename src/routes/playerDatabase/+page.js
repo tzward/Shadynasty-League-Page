@@ -1,6 +1,5 @@
 import {
-    loadPlayers,
-    playerData,
+    loadPlayers as players
 } from '$lib/utils/helper';
 
 export async function load() {
@@ -8,7 +7,7 @@ export async function load() {
     const playerData = loadPlayers();
 
     const props = {
-        loadPlayers,
+        players,
         playerData
     }
 
