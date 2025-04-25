@@ -57,6 +57,26 @@
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
 
+	.border3 {
+		position: absolute;
+		display: block;
+		height: 100%;
+		width: 5px;
+		left: 100%;
+		background-color: #CD3498; /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px #FDC2E1;
+	}
+
+	.border4 {
+		position: absolute;
+		display: block;
+		height: 100%;
+		width: 5px;
+		right: 100%;
+		background-color: #CD3498; /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px #FDC2E1;
+	}
+
 	#logo {
 		width: 150px;
 		display: block;
@@ -98,6 +118,8 @@
 
 	<div class="border1"> </div>
 	<div class="border2"> </div>
+	<div class="border3"> </div>
+	<div class="border4"> </div>
 
 	<div class="container">
 		<IconButton
