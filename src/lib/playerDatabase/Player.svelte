@@ -5,31 +5,15 @@
 	import Roster from '../Rosters/Roster.svelte';
 	import TransactionsPage from '../Transactions/TransactionsPage.svelte';
     import { goto } from '$app/navigation';
-    import ManagerFantasyInfo from './ManagerFantasyInfo.svelte';
-    import ManagerAwards from './ManagerAwards.svelte';
     import { onMount } from 'svelte';
 	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
 
-    export let manager, managers, rostersData, leagueTeamManagers, rosterPositions, transactionsData, awards, records;
+  //  export let manager, managers, rostersData, leagueTeamManagers, rosterPositions, transactionsData, awards, records;
 
     let transactions = transactionsData.transactions;
 
-    $: viewManager = managers[manager];
-
-    $: datesActive = getDatesActive(leagueTeamManagers, viewManager.managerID);
-
     const  startersAndReserve = rostersData.startersAndReserve;
     let rosters = rostersData.rosters;
-
-    $: ({rosterID, year} = viewManager.managerID ? getRosterIDFromManagerID(leagueTeamManagers, viewManager.managerID) : {rosterID: viewManager.roster, year: null});
-
-    $: teamTransactions = transactions.filter(t => t.rosters.includes(parseInt(rosterID)));
-
-    $: roster = rosters[rosterID];
-
-    $: coOwners = year && rosterID ? leagueTeamManagers.teamManagersMap[year][rosterID].managers.length > 1 : roster.co_owners;
-
-    $: commissioner = viewManager.managerID ? leagueTeamManagers.users[viewManager.managerID].is_owner : false;
 
     let players, playersInfo;
     let loading = true;
@@ -55,28 +39,29 @@
         }
     })
 
-    const changeManager = (newManager, noscroll = false) => {
+/*    const changeManager = (newManager, noscroll = false) => {
         if(!newManager) {
             goto(`/managers`);
         }
         manager = newManager;
         goto(`/manager?manager=${newManager}`, {noscroll});
     }
+*/
 </script>
 
 <style>
-    .managerContainer {
+    .playerContainer {
         width: 100%;
         margin: 2em 0 5em;
     }
 
-    .managerConstrained {
+    .playerConstrained {
         width: 97%;
         max-width: 800px;
         margin: 0 auto 4em;
     }
 
-    .managerPhoto {
+    .playerPhoto {
         display: block;
         border-radius: 100%;
         width: 70%;
@@ -222,9 +207,9 @@
     }
 </style>
 
-<div class="managerContainer">
-    <div class="managerConstrained">
-        <img class="managerPhoto" src="{viewManager.photo}" alt="manager"/>
+<div class="playerContainer">
+    <div class="playerConstrained">
+        <img class="playerPhoto" src="{viewManager.photo}" alt="manager"/>
         <h2>
             {viewManager.name}
             <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of <i>{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</i></div>
