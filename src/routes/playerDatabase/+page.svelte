@@ -28,15 +28,15 @@
 </style>
 
 <div class="main">
-    {#await leagueTeamManagersData}
+    {#await AllPlayers}
         <!-- promise is pending -->
         <div class="loading">
-            <p>Retrieving managers...</p>
+            <p>Retrieving players...</p>
             <LinearProgress indeterminate />
         </div>
-    {:then leagueTeamManagers}
-        {#if managers.length}
-            <AllManagers {managers}  {leagueTeamManagers}/>
+    {:then AllPlayers}
+        {#if players.length}
+            <AllPlayers {players}  {playerInfo}/>
         {/if}
     {:catch error}
         <!-- promise was rejected -->
