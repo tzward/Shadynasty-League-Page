@@ -1,8 +1,8 @@
 <script>
-    import { leagueName } from '$lib/utils/helper';
-    import ManagerRow from './ManagerRow.svelte'
+    import { loadPlayers } from '$lib/utils/helper';
+    import PlayerRow from './PlayerRow.svelte'
 
-    export let managers, leagueTeamManagers;
+    export let players;
 
     let innerWidth;
 </script>
@@ -10,12 +10,12 @@
 <svelte:window bind:innerWidth={innerWidth} />
 
 <style>
-    .managerContainer {
+    .playerContainer {
         width: 100%;
         margin: 2em 0 5em;
     }
 
-    .managerConstrained {
+    .playerConstrained {
         width: 97%;
         max-width: 800px;
         margin: 0 auto;
@@ -38,11 +38,11 @@
     }
 </style>
 
-<div class="managerContainer">
-    <h2>{leagueName} Managers</h2>
-    <div class="managerConstrained">
-        {#each managers as manager, key}
-            <ManagerRow {manager} {leagueTeamManagers} {key} />
+<div class="playerContainer">
+    <h2>{leagueName} Players</h2>
+    <div class="playerConstrained">
+        {#each players as player, key}
+            <PlayerRow {player} {loadPlayers} {key} />
         {/each}
     </div>
 
