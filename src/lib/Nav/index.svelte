@@ -60,10 +60,10 @@
 	.border3 {
 		position: absolute;
 		display: block;
-		height: 99%;
+		height: 98%;
 		width: 5px;
 		left: 99.5%;
-		top: 1%;
+		top: 2%;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
@@ -71,10 +71,10 @@
 	.border4 {
 		position: absolute;
 		display: block;
-		height: 99%;
+		height: 98%;
 		width: 5px;
 		right: 99.5%;
-		top: 1%;
+		top: 2%;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
