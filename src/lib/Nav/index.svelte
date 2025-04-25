@@ -36,7 +36,7 @@
 		position: relative;
 		z-index: 2;
 		border-bottom: 5px solid #ff4ba8;
-		box-shadow: 8px 8px 8px 8px #37242d;
+		box-shadow: 0px 8px 0px 0px #37242d;
 	}
 
 	#logo {
