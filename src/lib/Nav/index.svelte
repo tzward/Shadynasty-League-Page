@@ -42,7 +42,17 @@
 		display: block;
 		height: 5px;
 		width: 100%;
-		top: 20%;
+		top: 1%;
+		background-color: #CD3498; /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px #FDC2E1;
+	}
+
+	.border {
+		position: absolute;
+		display: block;
+		height: 5px;
+		width: 100%;
+		top: 70%;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
