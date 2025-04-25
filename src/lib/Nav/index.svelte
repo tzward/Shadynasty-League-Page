@@ -62,7 +62,7 @@
 		display: block;
 		height: 96%;
 		width: 1%;
-		left: 100%;
+		right: 0%;
 		top: 3%;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
