@@ -33,6 +33,11 @@
 		transition: box-shadow 0.4s;
     }
 
+    .infoPlayer:hover .playerIcon {
+        box-shadow: 0 0 6px 4px var(--aaa);
+        border: 1px solid var(--aaa);
+    }
+
     .playerIcon {
         align-items:flex-end;
     }
@@ -210,7 +215,7 @@
     {/if}
     <!-- Favorite player (optioonal) -->
     {#if viewManager.favoritePlayer}
-        <div class="infoSlot">
+        <div class="infoSlot infoPlayer" on:click={() => changePlayer(viewPlayer.player.link)}>
             <div class="infoLabel">
                 Favorite Player
             </div>
