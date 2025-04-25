@@ -43,7 +43,7 @@
 		height: 2%;
 		width: 100%;
 		top: 0%;
-		background-color: #CD3498; /* #ff4ba8 */
+		background-color: var(--blueone); /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
 
@@ -53,7 +53,7 @@
 		height: 2%;
 		width: 100%;
 		top: 100%;
-		background-color: #CD3498; /* #ff4ba8 */
+		background-color: var(--blueone); /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
 
@@ -64,7 +64,7 @@
 		width: 0.25%;
 		right: 0%;
 		top: 3%;
-		background-color: #CD3498; /* #ff4ba8 */
+		background-color: var(--blueone); /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
 
@@ -75,7 +75,7 @@
 		width: 0.25%;
 		left: 0%;
 		top: 3%;
-		background-color: #CD3498; /* #ff4ba8 */
+		background-color: var(--blueone); /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
 
