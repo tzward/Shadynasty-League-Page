@@ -18,11 +18,12 @@
         ({rosterID, year} = getRosterIDFromManagerID(leagueTeamManagers, manager.managerID) || {rosterID, year});
     }
 
-    const commissioner = manager.managerID ? leagueTeamManagers.users[manager.managerID].is_owner : false;
+    // const freeAgent = manager.managerID ? leagueTeamManagers.users[manager.managerID].is_owner : false;
+
 </script>
 
 <style>
-    .manager {
+    .player {
         display: flex;
         justify-content: left;
         align-items: center;
@@ -229,16 +230,16 @@
     }
 </style>
 
-<div class="manager" style="{retired ? "background-image: url(/retired.png); background-color: var(--ddd)": ""}" onclick={() => goto(`/manager?manager=${key}`)}>
+<div class="player" style="{retired ? "background-image: url(/retired.png); background-color: var(--ddd)": ""}" onclick={() => goto(`/player?player=${key}`)}>
     <div class="avatarHolder">
-        <img class="photo" src="{manager.photo}" alt="{manager.name}" />
-        {#if commissioner}
-            <div class="commissionerBadge">
-                <span>C</span>
-            </div>
-        {/if}
+        <img class="photo" src="{player.photo}" alt="{player.name}" />
+       // {#if commissioner}
+       //     <div class="commissionerBadge">
+       //         <span>C</span>
+       //     </div>
+       // {/if}
     </div>
-    <div class="name">{manager.name}</div>
+    <div class="name">{player.name}</div>
     <div class="team">{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</div>
     <div class="spacer" />
     <div class="info">
