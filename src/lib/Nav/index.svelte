@@ -63,6 +63,7 @@
 		height: 100%;
 		width: 5px;
 		left: 100%;
+		top: 0%;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
@@ -73,6 +74,7 @@
 		height: 100%;
 		width: 5px;
 		right: 100%;
+		top: 0%;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
