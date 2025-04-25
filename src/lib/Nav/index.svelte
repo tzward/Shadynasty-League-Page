@@ -39,6 +39,8 @@
 
 	.border {
 		position: relative;
+  		justify-content: center;
+  		align-items: center;
 		height: 5px;
 		width: 950px;
 		background-color: #CD3498; /* #ff4ba8 */
