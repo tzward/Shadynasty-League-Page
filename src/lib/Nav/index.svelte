@@ -60,9 +60,9 @@
 	.border3 {
 		position: absolute;
 		display: block;
-		height: 97%;
+		height: 96%;
 		width: 1%;
-		left: 99.5%;
+		left: 100%;
 		top: 3%;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
@@ -71,9 +71,9 @@
 	.border4 {
 		position: absolute;
 		display: block;
-		height: 97%;
+		height: 96%;
 		width: 1%;
-		right: 99%;
+		right: 100%;
 		top: 3%;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
