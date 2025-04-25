@@ -73,7 +73,7 @@
 		display: block;
 		height: 98%;
 		width: 5px;
-		right: 99.5%;
+		right: 98.5%;
 		top: 2%;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
