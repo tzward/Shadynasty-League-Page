@@ -5,7 +5,7 @@
 	import { goto } from '$app/navigation';
 
 	export let data;
-	const {loadPlayers, playerData} = data;
+	const {players, playerData} = data;
 
     onMount(() => {
         if(!loadPlayers.length) {
@@ -35,8 +35,8 @@
             <LinearProgress indeterminate />
         </div>
     {:then AllPlayers}
-        {#if loadPlayers.length}
-            <AllPlayers {loadPlayers}  {playerData}/>
+        {#if players.length}
+            <AllPlayers {players}  {playerData}/>
         {/if}
     {:catch error}
         <!-- promise was rejected -->
