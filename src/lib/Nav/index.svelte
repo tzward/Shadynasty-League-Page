@@ -40,10 +40,10 @@
 	}
 
 	#logo {
-		width: 200px;
+		width: 150px;
 		display: block;
 		margin: 0 auto;
-		padding: 20px;
+		padding: 10px;
 	}
 
     .large {
