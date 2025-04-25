@@ -35,7 +35,7 @@
 		background-color: var(--fff);
 		position: relative;
 		z-index: 2;
-		border-bottom: 5px solid CD3498; //#ff4ba8;
+		border-bottom: 5px solid #CD3498; // #ff4ba8
 		box-shadow: 0 4px 4px 0 #37242d;
 	}
 
