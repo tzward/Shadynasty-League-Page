@@ -43,7 +43,7 @@
 		width: 200px;
 		display: block;
 		margin: 0 auto;
-		padding: 10px;
+		padding: 20px;
 	}
 
     .large {
