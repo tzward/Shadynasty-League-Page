@@ -39,10 +39,9 @@
 
 	.border {
 		position: absolute;
-  		justify-content: center;
-  		align-items: center;
+		display: block;
 		height: 5px;
-		width: 10em;
+		width: 10%;
 		top: 20em;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
