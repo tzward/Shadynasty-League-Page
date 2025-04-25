@@ -35,12 +35,12 @@
 		background-color: var(--fff);
 		position: relative;
 		z-index: 2;
-		border-bottom: 3px solid #ff4ba8;
+		border-bottom: 5px solid #ff4ba8;
 		box-shadow: 0 0 8px 0 #37242d;
 	}
 
 	#logo {
-		width: 100px;
+		width: 200px;
 		display: block;
 		margin: 0 auto;
 		padding: 10px;
