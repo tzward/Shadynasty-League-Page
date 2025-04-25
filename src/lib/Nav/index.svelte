@@ -40,7 +40,7 @@
 	.border1 {
 		position: absolute;
 		display: block;
-		height: 5px;
+		height: 2%;
 		width: 100%;
 		top: 0%;
 		background-color: #CD3498; /* #ff4ba8 */
@@ -50,7 +50,7 @@
 	.border2 {
 		position: absolute;
 		display: block;
-		height: 5px;
+		height: 2%;
 		width: 100%;
 		top: 100%;
 		background-color: #CD3498; /* #ff4ba8 */
@@ -61,7 +61,7 @@
 		position: absolute;
 		display: block;
 		height: 97%;
-		width: 5px;
+		width: 1%;
 		left: 99.5%;
 		top: 3%;
 		background-color: #CD3498; /* #ff4ba8 */
@@ -72,7 +72,7 @@
 		position: absolute;
 		display: block;
 		height: 97%;
-		width: 5px;
+		width: 1%;
 		right: 99%;
 		top: 3%;
 		background-color: #CD3498; /* #ff4ba8 */
