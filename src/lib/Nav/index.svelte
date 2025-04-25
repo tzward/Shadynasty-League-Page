@@ -37,7 +37,7 @@
 		z-index: 2;
 	}
 
-	.border {
+	.border1 {
 		position: absolute;
 		display: block;
 		height: 5px;
@@ -47,12 +47,12 @@
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
 
-	.border {
+	.border2 {
 		position: absolute;
 		display: block;
 		height: 5px;
 		width: 100%;
-		top: 70%;
+		top: 100%;
 		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
@@ -96,7 +96,8 @@
 <nav>
 	<a href="/"><img id="logo" alt="league logo" src="/LeaguePhoto.png" /></a>
 
-	<div class="border"> </div>
+	<div class="border1"> </div>
+	<div class="border2"> </div>
 
 	<div class="container">
 		<IconButton
