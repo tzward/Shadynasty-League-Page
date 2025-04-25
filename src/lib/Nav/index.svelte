@@ -35,7 +35,13 @@
 		background-color: var(--fff);
 		position: relative;
 		z-index: 2;
-		border-bottom: 5px solid #CD3498; /* #ff4ba8 */
+	}
+
+	.border {
+		position: relative;
+		height: 5px;
+		width: 950px;
+		background-color: #CD3498; /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
 
@@ -77,6 +83,8 @@
 
 <nav>
 	<a href="/"><img id="logo" alt="league logo" src="/LeaguePhoto.png" /></a>
+
+	<div class="border"> </div>
 
 	<div class="container">
 		<IconButton
