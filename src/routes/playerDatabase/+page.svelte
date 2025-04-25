@@ -5,10 +5,10 @@
 	import { goto } from '$app/navigation';
 
 	export let data;
-	const {players, leagueTeamManagersData} = data;
+	const {managers, leagueTeamManagersData} = data;
 
     onMount(() => {
-        if(!players.length) {
+        if(!managers.length) {
             goto('/');
         }
     })
@@ -26,3 +26,20 @@
         margin: 80px auto;
     }
 </style>
+
+<div class="main">
+    {#await leagueTeamManagersData}
+        <!-- promise is pending -->
+        <div class="loading">
+            <p>Retrieving managers...</p>
+            <LinearProgress indeterminate />
+        </div>
+    {:then leagueTeamManagers}
+        {#if managers.length}
+            <AllManagers {managers}  {leagueTeamManagers}/>
+        {/if}
+    {:catch error}
+        <!-- promise was rejected -->
+        <p>Something went wrong: {error.message}</p>
+    {/await}
+</div>
