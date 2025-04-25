@@ -1,14 +1,14 @@
 import {
-    players,
+    loadPlayers,
     playerData,
 } from '$lib/utils/helper';
 
 export async function load() {
-    if(!managers.length) return {managers};
-    const playerData = players();
+    if(!players.length) return {players};
+    const playerData = loadPlayers();
 
     const props = {
-        players,
+        loadPlayers,
         playerData
     }
 
