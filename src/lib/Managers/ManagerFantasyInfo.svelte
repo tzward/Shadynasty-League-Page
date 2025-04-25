@@ -33,7 +33,7 @@
 		transition: box-shadow 0.4s;
     }
 
-    .infoPlayer:hover .playerIcon {
+    .infoPlayer:hover .infoIcon {
         box-shadow: 0 0 6px 4px var(--aaa);
         border: 1px solid var(--aaa);
     }
