@@ -35,7 +35,7 @@
 		background-color: var(--fff);
 		position: relative;
 		z-index: 2;
-		border-bottom: 1px solid #ff4ba8;
+		border-bottom: 3px solid #ff4ba8;
 		box-shadow: 0 0 8px 0 #37242d;
 	}
 
