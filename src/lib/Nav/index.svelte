@@ -45,6 +45,7 @@
 		top: 0%;
 		background-color: var(--blueOne); /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
+		z-index: 1;
 	}
 
 	.border2 {
@@ -55,6 +56,7 @@
 		top: 98%;
 		background-color: var(--blueOne); /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px #FDC2E1;
+		z-index: 1;
 	}
 
 	.border3 {
