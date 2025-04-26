@@ -120,8 +120,6 @@
 
 	<div class="border1"> </div>
 	<div class="border2"> </div>
-	//<div class="border3"> </div>
-	//<div class="border4"> </div>
 
 	<div class="container">
 		<IconButton
