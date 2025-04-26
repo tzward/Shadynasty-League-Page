@@ -44,7 +44,7 @@
 		width: 100%;
 		top: 0%;
 		background-color: var(--blueOne); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px var(--blueTwo);
+		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
 
 	.border2 {
@@ -54,7 +54,7 @@
 		width: 100%;
 		top: 98%;
 		background-color: var(--blueOne); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px var(--blueTwo);
+		box-shadow: 0 0 4px 4px #FDC2E1;
 	}
 
 	.border3 {
@@ -120,8 +120,8 @@
 
 	<div class="border1"> </div>
 	<div class="border2"> </div>
-	<div class="border3"> </div>
-	<div class="border4"> </div>
+	//<div class="border3"> </div>
+	//<div class="border4"> </div>
 
 	<div class="container">
 		<IconButton
