@@ -44,7 +44,7 @@
 		width: 100%;
 		top: 0%;
 		background-color: var(--blueOne); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px var(--blueTwo);
+		box-shadow: 0 0 4px 4px var(--blueTwo)
 		z-index: 1;
 	}
 
@@ -55,8 +55,30 @@
 		width: 100%;
 		top: 98%;
 		background-color: var(--blueOne); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px var(--blueTwo);
+		box-shadow: 0 0 4px 4px #fdd2e1;
 		z-index: 1;
+	}
+
+	.border3 {
+		position: absolute;
+		display: block;
+		height: 96%;
+		width: 0.25%;
+		right: 0%;
+		top: 3%;
+		background-color: var(--blueOne); /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px var(--blueTwo);
+	}
+
+	.border4 {
+		position: absolute;
+		display: block;
+		height: 96%;
+		width: 0.25%;
+		left: 0%;
+		top: 3%;
+		background-color: var(--blueOne); /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px var(--blueTwo);
 	}
 
 	#logo {
