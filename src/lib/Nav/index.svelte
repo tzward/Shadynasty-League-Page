@@ -42,7 +42,7 @@
 		display: block;
 		height: 2%;
 		width: 100%;
-		top: 2%;
+		top: 0%;
 		background-color: var(--blueOne); /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px var(--blueTwo);
 	}
@@ -52,7 +52,7 @@
 		display: block;
 		height: 2%;
 		width: 100%;
-		top: 100%;
+		top: 99%;
 		background-color: var(--blueOne); /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px var(--blueTwo);
 	}
