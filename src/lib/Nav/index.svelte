@@ -43,8 +43,8 @@
 		height: 2%;
 		width: 100%;
 		top: 2%;
-		background-color: var(--blueone); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px #FDC2E1;
+		background-color: var(--borderColor); /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px var(--borderShadow);
 	}
 
 	.border2 {
@@ -53,8 +53,8 @@
 		height: 2%;
 		width: 100%;
 		top: 100%;
-		background-color: var(--blueone); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px #FDC2E1;
+		background-color: var(--borderColor); /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px var(--borderShadow);
 	}
 
 	.border3 {
@@ -64,8 +64,8 @@
 		width: 0.25%;
 		right: 0%;
 		top: 3%;
-		background-color: var(--blueone); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px #FDC2E1;
+		background-color: var(--borderColor); /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px var(--borderShadow);
 	}
 
 	.border4 {
@@ -75,8 +75,8 @@
 		width: 0.25%;
 		left: 0%;
 		top: 3%;
-		background-color: var(--blueone); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px #FDC2E1;
+		background-color: var(--borderColor); /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px var(--borderShadow);
 	}
 
 	#logo {
