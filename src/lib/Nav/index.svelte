@@ -40,7 +40,7 @@
 	.border1 {
 		position: absolute;
 		display: block;
-		height: 2%;
+		height: 1%;
 		width: 100%;
 		top: 0%;
 		background-color: var(--blueOne); /* #ff4ba8 */
@@ -50,9 +50,9 @@
 	.border2 {
 		position: absolute;
 		display: block;
-		height: 2%;
+		height: 1%;
 		width: 100%;
-		top: 99%;
+		top: 98%;
 		background-color: var(--blueOne); /* #ff4ba8 */
 		box-shadow: 0 0 4px 4px var(--blueTwo);
 	}
