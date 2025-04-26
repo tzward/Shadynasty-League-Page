@@ -43,8 +43,8 @@
 		height: 2%;
 		width: 100%;
 		top: 2%;
-		background-color: var(--borderColor); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px var(--borderShadow);
+		background-color: var(--blueOne); /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px var(--blueTwo);
 	}
 
 	.border2 {
@@ -53,8 +53,8 @@
 		height: 2%;
 		width: 100%;
 		top: 100%;
-		background-color: var(--borderColor); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px var(--borderShadow);
+		background-color: var(--blueOne); /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px var(--blueTwo);
 	}
 
 	.border3 {
@@ -64,8 +64,8 @@
 		width: 0.25%;
 		right: 0%;
 		top: 3%;
-		background-color: var(--borderColor); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px var(--borderShadow);
+		background-color: var(--blueOne); /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px var(--blueTwo);
 	}
 
 	.border4 {
@@ -75,8 +75,8 @@
 		width: 0.25%;
 		left: 0%;
 		top: 3%;
-		background-color: var(--borderColor); /* #ff4ba8 */
-		box-shadow: 0 0 4px 4px var(--borderShadow);
+		background-color: var(--blueOne); /* #ff4ba8 */
+		box-shadow: 0 0 4px 4px var(--blueTwo);
 	}
 
 	#logo {
