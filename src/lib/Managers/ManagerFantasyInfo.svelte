@@ -44,7 +44,7 @@
 
     .infoLabel {
         font-size: 0.7em;
-        color: var(--blueOne);
+        color: var(--blueTwo);
         font-weight: 700;
         margin-bottom: 1em;
         height: 30px;
