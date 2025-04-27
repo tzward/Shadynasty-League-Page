@@ -203,35 +203,35 @@
 
 <div class="transactionsParent">
 	<div class="buttons {show == "trade" ? "" : "invis-buttons"}">
-		<Button class="{show == "trade" ? "disabled" : ""}" color="primary" onclick={() => setShow("trade")} variant="{show == "trade" ? "raised" : "outlined"}" touch>
+		<Button class="{show == "trade" ? "disabled" : ""}" color=var(--blueOne) onclick={() => setShow("trade")} variant="{show == "trade" ? "raised" : "outlined"}" touch>
 			<Label>Trades</Label>
 		</Button>
-		<Button class="{show == "waiver" ? "disabled" : ""}" color="primary" onclick={() => setShow("waiver")} variant="{show == "waiver" ? "raised" : "outlined"}" touch>
+		<Button class="{show == "waiver" ? "disabled" : ""}" color=var(--blueOne) onclick={() => setShow("waiver")} variant="{show == "waiver" ? "raised" : "outlined"}" touch>
 			<Label>Waivers</Label>
 		</Button>
-		<Button class="{show == "both" ? "disabled" : ""}" color="primary" onclick={() => setShow("both")} variant="{show == "both" ? "raised" : "outlined"}" touch>
+		<Button class="{show == "both" ? "disabled" : ""}" color=var(--blueOne) onclick={() => setShow("both")} variant="{show == "both" ? "raised" : "outlined"}" touch>
 			<Label>Both</Label>
 		</Button>
 	</div>
 	<div class="buttons {show == "waiver" ? "" : "invis-buttons"}">
-		<Button class="{show == "trade" ? "disabled" : ""}" color="primary" onclick={() => setShow("trade")} variant="{show == "trade" ? "raised" : "outlined"}" touch>
+		<Button class="{show == "trade" ? "disabled" : ""}" color=var(--blueOne) onclick={() => setShow("trade")} variant="{show == "trade" ? "raised" : "outlined"}" touch>
 			<Label>Trades</Label>
 		</Button>
-		<Button class="{show == "waiver" ? "disabled" : ""}" color="primary" onclick={() => setShow("waiver")} variant="{show == "waiver" ? "raised" : "outlined"}" touch>
+		<Button class="{show == "waiver" ? "disabled" : ""}" color=var(--blueOne) onclick={() => setShow("waiver")} variant="{show == "waiver" ? "raised" : "outlined"}" touch>
 			<Label>Waivers</Label>
 		</Button>
-		<Button class="{show == "both" ? "disabled" : ""}" color="primary" onclick={() => setShow("both")} variant="{show == "both" ? "raised" : "outlined"}" touch>
+		<Button class="{show == "both" ? "disabled" : ""}" color=var(--blueOne) onclick={() => setShow("both")} variant="{show == "both" ? "raised" : "outlined"}" touch>
 			<Label>Both</Label>
 		</Button>
 	</div>
 	<div class="buttons {show == "both" ? "" : "invis-buttons"}">
-		<Button class="{show == "trade" ? "disabled" : ""}" color="primary" onclick={() => setShow("trade")} variant="{show == "trade" ? "raised" : "outlined"}" touch>
+		<Button class="{show == "trade" ? "disabled" : ""}" color=var(--blueOne) onclick={() => setShow("trade")} variant="{show == "trade" ? "raised" : "outlined"}" touch>
 			<Label>Trades</Label>
 		</Button>
-		<Button class="{show == "waiver" ? "disabled" : ""}" color="primary" onclick={() => setShow("waiver")} variant="{show == "waiver" ? "raised" : "outlined"}" touch>
+		<Button class="{show == "waiver" ? "disabled" : ""}" color=var(--blueOne) onclick={() => setShow("waiver")} variant="{show == "waiver" ? "raised" : "outlined"}" touch>
 			<Label>Waivers</Label>
 		</Button>
-		<Button class="{show == "both" ? "disabled" : ""}" color="primary" onclick={() => setShow("both")} variant="{show == "both" ? "raised" : "outlined"}" touch>
+		<Button class="{show == "both" ? "disabled" : ""}" color=var(--blueOne) onclick={() => setShow("both")} variant="{show == "both" ? "raised" : "outlined"}" touch>
 			<Label>Both</Label>
 		</Button>
 	</div>
