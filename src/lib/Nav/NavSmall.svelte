@@ -28,7 +28,7 @@
 		top: 15px;
 		left: 15px;
 		font-size: 2em;
-		color: #888;
+		color: var(--g111); /* #888 */
 		padding: 6px;
 		cursor: pointer;
 	}
