@@ -48,13 +48,13 @@
 
 	.link {
 		cursor: pointer;
-		color: #888;
+		color: var(--g111);
 		padding: 10px 20px;
 		margin-bottom: 10px;
 	}
 
 	.link:hover {
-		color: #00316b;
+		color: var(--blueOne);
 	}
 
 	.nothingYet {
