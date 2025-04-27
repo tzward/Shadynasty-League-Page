@@ -167,8 +167,8 @@
         width: 25px;
         font-weight: 600;
         border-radius: 15px;
-        background-color: var(--blueTwo);
-        border: 1px solid var(--blueOne);
+        background-color: var(--blueOne);
+        border: 1px solid var(--blueTwo);
     }
 
     .commissionerBadge span {
