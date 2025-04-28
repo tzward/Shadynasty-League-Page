@@ -28,6 +28,10 @@
         border-radius: 1em;
         padding: 0.5em 1em;
     }
+    .viewAll:hover {
+        background-color: #720404
+    }
+
 </style>
 
 <div id="main">
