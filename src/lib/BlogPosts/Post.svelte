@@ -47,17 +47,18 @@
     }
 
     .button {
-        background-color: var(--blueOne); /* #0082c3 */
+        background-color: var(--blueTwo); /* #0082c3 */
         font-size: 1em;
         border-radius: 1em;
         text-decoration: none;
         padding: 0.5em 1em;
         margin-right: 1em;
-        color: white;
+        color: black;
     }
 
     .button:hover {
-        background-color: var(--blueTwo); /* #00316b */
+        background-color: var(--blueOne); /* #00316b */
+	color: white;
     }
 
     :global(.body blockquote) {
