@@ -14,7 +14,7 @@
     if(manager.managerID) {
         const dates = getDatesActive(leagueTeamManagers, manager.managerID);
         if(dates.end) retired = true;
-
+	if(manager.name == "Kyle") retired = true;
         ({rosterID, year} = getRosterIDFromManagerID(leagueTeamManagers, manager.managerID) || {rosterID, year});
     }
 
