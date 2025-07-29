@@ -275,8 +275,8 @@ export const managers = [
 
       // Sterling
   {
-       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "managerID": "999118080758464512", 
+       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "1255754850591838208", 
        "name": "Sterling",
        "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Rutgas, NJ", // (optional)
@@ -290,7 +290,7 @@ export const managers = [
          link: 6, // manager array number within this array, or null to link back to all managers page
          image: "/managers/File 24.jpeg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 30, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 9488, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Attain all of the Fantasy-Relevant 2027 Jets",
@@ -300,8 +300,8 @@ export const managers = [
 
       // Irvin
   {
-       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "managerID": "999118080758464512", 
+       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "1255957815176990720", 
        "name": "Irvin",
        "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Rutgas, NJ", // (optional)
